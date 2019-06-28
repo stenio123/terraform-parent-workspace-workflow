@@ -20,7 +20,7 @@ Note: since "workspace_names" is a list, make sure you select type "hcl" when cr
 
 The variable "oauth_token" is not sensitive because it is only the id of your VCS connection token as stored in TFE.
 To get it:
-![Oauth Token](img/Oauth_Token.png "Oauth Token")
+![Oauth Token](img/Oauth_token.png "Oauth Token")
 
 To create a TFE_TOKEN with your user's permissions:
 ![TFE Token](img/TFE_Token.png "TFE Token")

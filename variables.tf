@@ -13,8 +13,8 @@ variable "organization_name" {
 }
 
 variable "vcs_identifier" {
-    description = "Name of one previously configured VCS connection in TFE"
-    // Example: GitHub
+    description = "Name of a repo existing in a previously configured VCS connection in TFE"
+    // Example: stenio123/musical-spork
 }
 
 variable "oauth_token" {
